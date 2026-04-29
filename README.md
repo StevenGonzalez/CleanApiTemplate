@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/your-org/clean-api-template/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/clean-api-template/actions/workflows/ci.yml)
 
-Minimal API starter focused on clarity, maintainability, and practical defaults.
+A clean starting point for .NET services with practical defaults.
 
 ## Why This Template Exists
 
@@ -14,7 +14,7 @@ This one keeps useful boundaries without heavy boilerplate.
 - Clarity over cleverness.
 - Maintainability over premature architecture.
 - No overengineering.
-- AI-friendly code shape: explicit names and small files.
+- Use explicit names and small files.
 - Keep business logic out of HTTP endpoints.
 
 ## Runtime and Support
@@ -128,11 +128,3 @@ Examples:
 - Replace in-memory repository with EF Core and keep IItemRepository unchanged.
 - Add validation at the API boundary and keep business rules in Application/Domain.
 - Add another feature by repeating the same entity -> service -> repository -> endpoint pattern.
-
-## What This Template Is Not
-
-- Not a full enterprise platform.
-- Not tied to a specific database or cloud.
-- Not preloaded with every cross-cutting concern.
-
-Start here, then add only what your service actually needs.

@@ -1,5 +1,4 @@
 using CleanApiTemplate.Api.Endpoints;
-// using CleanApiTemplate.Api;
 using CleanApiTemplate.Api.Middleware;
 using CleanApiTemplate.Application;
 using CleanApiTemplate.Infrastructure;
@@ -29,15 +28,7 @@ builder.Services
 	.AddApplication()
 	.AddInfrastructure();
 
-// Optional Swagger: kept disabled by default for minimal setup and future OpenAPI changes.
-// builder.Services.AddOptionalSwagger();
-
 var app = builder.Build();
-
-// if (app.Environment.IsDevelopment())
-// {
-// 	app.UseOptionalSwagger();
-// }
 
 app.UseMiddleware<ErrorHandlingMiddleware>();
 

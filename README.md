@@ -83,18 +83,6 @@ Api -> Application -> Domain <- Infrastructure
 - Trace id included in error payload for quick log correlation.
 - Exception detail shown in development only.
 
-## Optional Swagger Support
-
-Swagger support is included as commented examples and disabled by default.
-This keeps the template minimal and future-aware while Microsoft evolves built-in OpenAPI support for minimal APIs.
-
-How to enable it:
-
-1. Add the package: Swashbuckle.AspNetCore.
-2. Uncomment extension methods in Api/SwaggerExtensions.cs.
-3. Uncomment AddOptionalSwagger in Program.cs.
-4. Uncomment UseOptionalSwagger in Program.cs inside development-only startup.
-
 ## Running the Project
 
 ```bash

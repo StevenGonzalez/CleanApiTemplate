@@ -56,7 +56,6 @@ TemporaryDependencyNodeTargetIdentifier=net8.0
 Api/
  Endpoints/ItemEndpoints.cs
  Middleware/ErrorHandlingMiddleware.cs
- SwaggerExtensions.cs
 Application/
  Abstractions/IItemService.cs
  DependencyInjection.cs

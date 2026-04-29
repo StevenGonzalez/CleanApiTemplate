@@ -26,3 +26,4 @@ C:\Code\CleanApiTemplate\CleanApiTemplate\obj\Release\net8.0\refint\CleanApiTemp
 C:\Code\CleanApiTemplate\CleanApiTemplate\obj\Release\net8.0\CleanApiTemplate.pdb
 C:\Code\CleanApiTemplate\CleanApiTemplate\obj\Release\net8.0\CleanApiTemplate.genruntimeconfig.cache
 C:\Code\CleanApiTemplate\CleanApiTemplate\obj\Release\net8.0\ref\CleanApiTemplate.dll
+C:\Code\CleanApiTemplate\CleanApiTemplate\obj\Release\net8.0\CleanApiTemplate.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanApiTemplate.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7ba0a6f078d26a482cb074cbc18e5c397825c04")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanApiTemplate.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanApiTemplate.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

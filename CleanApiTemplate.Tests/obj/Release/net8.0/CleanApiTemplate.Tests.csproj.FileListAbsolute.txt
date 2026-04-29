@@ -430,3 +430,4 @@ C:\Code\CleanApiTemplate\CleanApiTemplate.Tests\obj\Release\net8.0\refint\CleanA
 C:\Code\CleanApiTemplate\CleanApiTemplate.Tests\obj\Release\net8.0\CleanApiTemplate.Tests.pdb
 C:\Code\CleanApiTemplate\CleanApiTemplate.Tests\obj\Release\net8.0\CleanApiTemplate.Tests.genruntimeconfig.cache
 C:\Code\CleanApiTemplate\CleanApiTemplate.Tests\obj\Release\net8.0\ref\CleanApiTemplate.Tests.dll
+C:\Code\CleanApiTemplate\CleanApiTemplate.Tests\obj\Release\net8.0\CleanApiTemplate.Tests.sourcelink.json

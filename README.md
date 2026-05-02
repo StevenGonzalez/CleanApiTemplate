@@ -1,7 +1,7 @@
 # Clean API Template (.NET 8 Minimal API)
 
-[![CI](https://github.com/your-org/dotnet-clean-api-template/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/dotnet-clean-api-template/actions/workflows/ci.yml)
-[![CD](https://github.com/your-org/dotnet-clean-api-template/actions/workflows/cd.yml/badge.svg)](https://github.com/your-org/dotnet-clean-api-template/actions/workflows/cd.yml)
+[![CI](https://github.com/StevenGonzalez/dotnet-clean-api-template/actions/workflows/ci.yml/badge.svg)](https://github.com/StevenGonzalez/dotnet-clean-api-template/actions/workflows/ci.yml)
+[![CD](https://github.com/StevenGonzalez/dotnet-clean-api-template/actions/workflows/cd.yml/badge.svg)](https://github.com/StevenGonzalez/dotnet-clean-api-template/actions/workflows/cd.yml)
 
 Production-ready template for .NET services with CQRS, EF Core, JWT auth, structured logging, tracing, Docker, and GitHub Actions.
 

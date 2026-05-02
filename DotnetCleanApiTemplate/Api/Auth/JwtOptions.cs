@@ -1,0 +1,18 @@
+namespace DotnetCleanApiTemplate.Api.Auth;
+
+public sealed class JwtOptions
+{
+    public const string SectionName = "Jwt";
+
+    public string Issuer { get; init; } = string.Empty;
+
+    public string Audience { get; init; } = string.Empty;
+
+    public string SigningKey { get; init; } = string.Empty;
+
+    public int AccessTokenMinutes { get; init; } = 60;
+
+    public string DemoUsername { get; init; } = "demo";
+
+    public string DemoPassword { get; init; } = "demo123";
+}

@@ -22,11 +22,22 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
       - name: Restore dependencies
-        run: dotnet restore CleanApiTemplate.sln
+        run: dotnet restore DotnetCleanApiTemplate.sln
 
       - name: Build solution (Release)
-        run: dotnet build CleanApiTemplate.sln --configuration Release --no-restore
+        run: dotnet build DotnetCleanApiTemplate.sln --configuration Release --no-restore
 
       - name: Run tests (Release)
-        run: dotnet test CleanApiTemplate.sln --configuration Release --no-build
+        run: dotnet test DotnetCleanApiTemplate.sln --configuration Release --no-build
+
+      - name: Build API container image
+        run: docker build -f DotnetCleanApiTemplate/Dockerfile -t dotnet-clean-api-template:ci .

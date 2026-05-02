@@ -1,0 +1,28 @@
+# Build output
+**/bin/
+**/obj/
+
+# User/local IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.lscache
+
+# Test and coverage artifacts
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.opencover.xml
+
+# Logs and temp
+*.log
+*.tmp
+*.cache
+
+# Legacy pre-rename folders (artifact-only)
+CleanApiTemplate/
+CleanApiTemplate.Tests/
